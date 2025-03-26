@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1100;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        body {
+            padding-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-4">
+        <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" width="18" alt="Logo" > Fruity
+        </a>
+        <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/474x/b1/21/e1/b121e17651251878295759dc02748eaa.jpg" class="card-img-top" alt="Strawberry">
+                    <div class="card-body">
+                        <h5 class="card-title">What are the uses of Strawberry?</h5>
+                        <p class="text-muted">Budi Setiawan | Posted on 05 Oct 2021</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, voluptatibus error! Sapiente eos doloribus rerum velit voluptas non tenetur possimus?</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                  <img src="https://i.pinimg.com/474x/a9/10/f7/a910f76ccc5a6a547078d18eb4a3189d.jpg" class="card-img-top" alt="Avocado">
+                  <div class="card-body">
+                      <h5 class="card-title">What are the uses of Avocado?</h5>
+                      <p class="text-muted">Budi Setiawan | Posted on 05 Oct 2021</p>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet voluptatem quos hic consectetur quis illum.</p>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+              </div>
+          </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/474x/1c/16/62/1c1662f546cc85a1d77732c840ff9113.jpg" class="card-img-top" alt="Banana">
+                    <div class="card-body">
+                        <h5 class="card-title">What are the uses of Banana?</h5>
+                        <p class="text-muted">Budi Setiawan | Posted on 05 Oct 2021</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus unde voluptatum ad sapiente necessitatibus fuga, labore id explicabo non dolores nisi obcaecati repellat assumenda tenetur nam voluptatem.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5" id="contact">
+        <h2 class="text-primary">Contact Me</h2>
+        <p>If you need help, please contact us via the form below</p>
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Enter Name">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Enter Name">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4"></textarea>
+            </div>
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" id="terms">
+                <label class="form-check-label" for="terms">
+                    I agree to the terms and conditions
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
